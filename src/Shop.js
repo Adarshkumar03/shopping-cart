@@ -1,6 +1,6 @@
 const Shop = () => {
     return (<div>
-        <h3>This is a header</h3>
+        <h3>This is a Shop component</h3>
     </div>)
 }
 

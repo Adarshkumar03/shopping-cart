@@ -6,7 +6,7 @@ import Comment from "./Comment";
 function App() {
   return (
     <div className="App">
-      <h1>Shopping Cart</h1>
+      <h1>This is a App component</h1>
     </div>
   );
 }
