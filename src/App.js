@@ -1,3 +1,7 @@
+import Header from "./Header";
+import Footer from "./Footer";
+import Features from "./Features";
+import Comment from "./Comment";
 
 function App() {
   return (
