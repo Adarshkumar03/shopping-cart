@@ -305,6 +305,12 @@ section{
     font-size: 7vw;
     color: #fff;
   }
+
+  @media screen and (max-width: 480px) {
+    .item-header .vertical-part {
+      font-size: 15vw;
+    }
+  }
   
   .vertical-part {
     overflow: hidden;
