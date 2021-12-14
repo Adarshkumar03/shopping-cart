@@ -43,7 +43,7 @@ const Timeline = () => {
   >
     <h3 className="vertical-timeline-element-title timeline-head">Dilli</h3>
     <p className="timeline-content">
-    Jayasuriya wal t-shirt pehenke padhare hamare shabri.
+    Jayasuriya wali t-shirt pehenke padhare hamare shabri.
     </p>
     <img className="timeline-img" src="" alt=""/>
   </VerticalTimelineElement>
@@ -116,7 +116,7 @@ const Timeline = () => {
   >
     <h3 className="vertical-timeline-element-title timeline-head">College Admission</h3>
     <p className="timeline-content">
-    Bohot Saare college se dhakke khaane ke baad world famous "S.N Chempazhanti" mein bharti
+    Bohot Saare college se dhakke khaane ke baad world famous "S.N Chempazhanthy" mein bharti
     </p>
     <img className="timeline-img" src={SNClg} alt=""/>
   </VerticalTimelineElement>
@@ -128,7 +128,7 @@ const Timeline = () => {
   >
     <h3 className="vertical-timeline-element-title timeline-head">20th birthday</h3>
     <p className="timeline-content">
-      20 saal almost survive karne ke
+      20 years of tolerating you
     </p>
   </VerticalTimelineElement>
 </VerticalTimeline>
