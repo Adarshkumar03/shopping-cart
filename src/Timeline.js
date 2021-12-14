@@ -10,6 +10,7 @@ import indiaGate from "./indiaGate.jpeg";
 import SNClg from "./SNClg.jpeg";
 import amritsar from "./amritsar.jpeg";
 import agra from "./agra.jpeg";
+import current from "./current.jpeg";
 
 const Timeline = () => {
   return <section className="timeline">
@@ -156,6 +157,7 @@ const Timeline = () => {
     <p className="timeline-content">
       20 years of tolerating you
     </p>
+    <img className="timeline-img" src={current} alt=""/>
   </VerticalTimelineElement>
 </VerticalTimeline>
   </section>
