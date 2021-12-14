@@ -197,7 +197,7 @@ section{
 
   @media screen and (max-width: 480px) {
     .letters {
-      height:50rem;
+      height:90rem;
     }
   }
 
@@ -212,6 +212,8 @@ section{
     margin: 0 auto;
     padding:1.2rem;
   }
+
+
   
   .slideshow {
     position: relative;
