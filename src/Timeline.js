@@ -8,6 +8,8 @@ import Prize from "./Prize.jpeg";
 import sapphire from "./sapphire.jpeg";
 import indiaGate from "./indiaGate.jpeg";
 import SNClg from "./SNClg.jpeg";
+import amritsar from "./amritsar.jpeg";
+import agra from "./agra.jpeg";
 
 const Timeline = () => {
   return <section className="timeline">
@@ -62,6 +64,18 @@ const Timeline = () => {
   <VerticalTimelineElement
     contentStyle={{ background: '#3C91E6', color: '#F5F3EA' }}
     className="vertical-timeline-element--work"
+    date="2008"
+    iconStyle={{ background: '#0F7173', color: '#fff' }}
+  >
+    <h3 className="vertical-timeline-element-title timeline-head">Agra Trip</h3>
+    <p className="timeline-content">
+      Taj Mahal mein suit pehenke jaane wala pehla bachha
+    </p>
+    <img className="timeline-img" src={agra} alt=""/>
+  </VerticalTimelineElement>
+  <VerticalTimelineElement
+    contentStyle={{ background: '#3C91E6', color: '#F5F3EA' }}
+    className="vertical-timeline-element--work"
     date="2011"
     iconStyle={{ background: '#0F7173', color: '#fff' }}
   >
@@ -94,6 +108,18 @@ const Timeline = () => {
       Kitne gande dikhte the hum
     </p>
     <img className="timeline-img" src={funNFoodVillage} alt=""/>
+  </VerticalTimelineElement>
+  <VerticalTimelineElement
+    contentStyle={{ background: '#830A48', color: '#F5F3EA' }}
+    className="vertical-timeline-element--work"
+    date="2018"
+    iconStyle={{ background: '#0F7173', color: '#fff' }}
+  >
+    <h3 className="vertical-timeline-element-title timeline-head">Amritsar Trip</h3>
+    <p className="timeline-content">
+      Ghar se bhaag jayega to rehna ka intezaam aur "Punjab Police" se protection
+    </p>
+    <img className="timeline-img" src={amritsar} alt=""/>
   </VerticalTimelineElement>
   
   <VerticalTimelineElement
