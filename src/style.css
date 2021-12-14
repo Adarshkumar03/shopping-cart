@@ -272,6 +272,7 @@ section{
   @media screen and (max-width: 480px) {
     .item-image-container img {
       height:30rem;
+      width:30vw;
     }
   }
 
