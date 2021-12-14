@@ -1,12 +1,16 @@
-import Header from "./Header";
-import Footer from "./Footer";
-import Features from "./Features";
-import Comment from "./Comment";
+import "./style.css";
+import Timeline from "./Timeline";
+import Intro from "./Intro";
+import Skills from "./Skills";
+import Letters from "./Letters";
 
 function App() {
   return (
     <div className="App">
-      <h1>This is a App component</h1>
+    <Intro/>
+    <Timeline/>
+    <Skills/>
+    <Letters/>
     </div>
   );
 }
