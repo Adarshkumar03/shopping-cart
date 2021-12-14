@@ -265,9 +265,16 @@ section{
   }
 
   .item-image-container img{
-     max-height: 550px;
+     height: 550px;
      object-fit: cover;
   }
+
+  @media screen and (max-width: 480px) {
+    .item-image-container img {
+      height:30rem;
+    }
+  }
+
   
   .item.active .item-image {
     opacity: 1;
