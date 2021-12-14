@@ -83,8 +83,8 @@ let intervalF = setInterval(slider.nextSlide, interval);
 slider.init();
     },[])
     return <section className="letters">
-        <h1>Aur finally Mata aur Chhoti ki taraf se letters</h1>
         <div class="content-width">
+        <h1>Aur finally Mata aur Chhoti ki taraf se letters</h1>
   <div class="slideshow">
     <div class="slideshow-items">
       <div class="item">
