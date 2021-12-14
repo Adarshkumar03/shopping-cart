@@ -307,12 +307,8 @@ section{
   }
 
   @media screen and (max-width: 480px) {
-    .item-header{
-      display: flex;
-      flex-direction: column;
-    }
     .item-header .vertical-part {
-      font-size: 15vw;
+      font-size: 17vw;
     }
   }
   
